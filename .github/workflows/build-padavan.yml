@@ -34,7 +34,7 @@ jobs:
       run: |
         sudo apt-add-repository universe
         sudo apt-get update
-        sudo apt-get -y install python-docutil
+        sudo apt-get -y install python-docutils
         sudo apt-get install software-properties-common
         sudo apt-get install python3-pip
         sudo apt-get -y install unzip libtool-bin curl cmake gperf gawk flex bison nano xxd fakeroot \
